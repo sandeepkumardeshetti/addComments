@@ -1,0 +1,160 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.bg-container {
+  background-color: #dee0e3;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding: 50px;
+  }
+}
+
+.main-heading {
+  color: #1e293b;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 40px;
+  }
+}
+
+.comments-writing-con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .comments-writing-con {
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 600px) {
+  .inputs-container {
+    margin-right: 15px;
+  }
+}
+
+.comments-guide {
+  font-size: 14px;
+  color: #475569;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.name {
+  width: 100%;
+  max-width: 300px;
+  height: 36px;
+  outline: none;
+  border: 1px solid #475569;
+  background-color: transparent;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    width: 300px;
+  }
+}
+
+.comment {
+  outline: none;
+  border: 1px solid #475569;
+  background-color: transparent;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .comment {
+    width: 300px;
+  }
+}
+
+.btn {
+  padding: 4px 7px;
+  color: #fff;
+  background-color: #0284c7;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 7768px) {
+  .btn {
+    padding: 8px 14px;
+  }
+}
+
+.comments-img {
+  width: 80%;
+  max-width: 300px;
+  height: 250px;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 600px) {
+  .comments-img {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .comments-img {
+    width: 90%;
+    max-width: 430px;
+    margin-left: 30px;
+    margin-top: 0;
+  }
+}
+
+.line {
+  color: #475569;
+  margin: 10px 0;
+}
+
+.comments-count-con {
+  display: flex;
+}
+.comments-count-con span {
+  background-color: #0284c7;
+  padding: 2px;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 600;
+}
